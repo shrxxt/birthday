@@ -30,12 +30,13 @@ body{
 .right{
    display: flex;
    flex-direction: column;
-   align-items: center;
-   gap: 20px;
-   width: 20%;
-   padding: 15px 50px 10x 40px;
+   align-items: flex-end;
+   gap: 0px;
+   width: 35%;
+   padding: 15px 70px 10px 0px;
    padding-right: 70px;
-   justify-content: center;
+   margin-right: 40px;
+   
    
 }
 
@@ -47,16 +48,16 @@ body{
     padding: 175px;
     background-size: cover;
     margin-left: 10px;
+    margin-right: 10px;
     background-image: url(./images/birthday-cat-happy-birthday.gif);
     background-position: 40%;
-    justify-content: center;
 }
 
 .container-one .left img{
     max-width: 15%;
     margin: 0px;
     padding: 0px;
-    height: auto'
+    height: auto;
 }
 
 .container-two{
